@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trovantenato.Web.Api", "src\Trovantenato.Web.Api\Trovantenato.Web.Api.csproj", "{65E1E8F5-3A11-409C-85AA-9F88CD49927E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{10E0CAE2-B4F9-4BE6-9FD5-1D530DBDEB73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6974E385-E104-4C10-8A28-51357C5CBD99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2AA2A6CC-30CD-495D-A09B-7D4A31ABD164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7DA2BD9C-0707-4F92-A9F2-D112676B7677}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trovantenato.Application", "src\Trovantenato.Application\Trovantenato.Application.csproj", "{A9ACC559-77A2-4527-9680-946B11846D17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trovantenato.Domain", "src\Trovantenato.Domain\Trovantenato.Domain.csproj", "{C58DEA8F-C5B0-4C8D-B849-9C817537A599}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trovantenato.Infrastructure", "src\Trovantenato.Infrastructure\Trovantenato.Infrastructure.csproj", "{D0B30905-50CA-4E0D-8836-2E6E933A800B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E1E8F5-3A11-409C-85AA-9F88CD49927E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E1E8F5-3A11-409C-85AA-9F88CD49927E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E1E8F5-3A11-409C-85AA-9F88CD49927E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E1E8F5-3A11-409C-85AA-9F88CD49927E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9ACC559-77A2-4527-9680-946B11846D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ACC559-77A2-4527-9680-946B11846D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ACC559-77A2-4527-9680-946B11846D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ACC559-77A2-4527-9680-946B11846D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58DEA8F-C5B0-4C8D-B849-9C817537A599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58DEA8F-C5B0-4C8D-B849-9C817537A599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58DEA8F-C5B0-4C8D-B849-9C817537A599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58DEA8F-C5B0-4C8D-B849-9C817537A599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B30905-50CA-4E0D-8836-2E6E933A800B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B30905-50CA-4E0D-8836-2E6E933A800B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B30905-50CA-4E0D-8836-2E6E933A800B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B30905-50CA-4E0D-8836-2E6E933A800B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65E1E8F5-3A11-409C-85AA-9F88CD49927E} = {6974E385-E104-4C10-8A28-51357C5CBD99}
+		{A9ACC559-77A2-4527-9680-946B11846D17} = {10E0CAE2-B4F9-4BE6-9FD5-1D530DBDEB73}
+		{C58DEA8F-C5B0-4C8D-B849-9C817537A599} = {10E0CAE2-B4F9-4BE6-9FD5-1D530DBDEB73}
+		{D0B30905-50CA-4E0D-8836-2E6E933A800B} = {2AA2A6CC-30CD-495D-A09B-7D4A31ABD164}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {171CC9FF-CD89-47D8-810D-43C66F6F56C6}
+	EndGlobalSection
+EndGlobal

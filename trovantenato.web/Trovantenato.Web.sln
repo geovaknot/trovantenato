@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trovantenato.Web", "Trovantenato.Web.csproj", "{42742379-D9E7-405A-BF28-611835B266DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42742379-D9E7-405A-BF28-611835B266DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42742379-D9E7-405A-BF28-611835B266DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42742379-D9E7-405A-BF28-611835B266DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42742379-D9E7-405A-BF28-611835B266DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A5C244-C067-4B3F-BD0F-77111242DB2E}
+	EndGlobalSection
+EndGlobal

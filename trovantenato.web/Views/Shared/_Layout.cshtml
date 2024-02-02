@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Trovantenato</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="language" content="portuguese" />
+    <meta name="description" content="Pesquisa de ancestrais italianos" />
+    <meta name="keywords" content="Itália, Imigração, Cidadania" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Trovantenato - Pesquisa de ancestrais italianos" />
+    <meta property="og:title" content="Trovantenato - Pesquisa de ancestrais italianos" />
+    <meta property="og:description" content="Pesquisa de ancestrais italianos." />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="400" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="~/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="~/css/normalize.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:600,700,400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/css/slider-pro.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/css/owl.theme.css">
+    <link rel="stylesheet" href="~/css/owl.transitions.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/color.css" id="colors" />
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <script type="text/javascript" src="js/selectivizr.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="status"></div>
+    </div>
+
+    <header>
+        <!-- Navigation Menu start-->
+        <nav class="navbar mts-main-menu">
+            <div class="container">
+
+                <!-- Navbar Toggle -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="index.html"><img class="logo" id="logo" src="~/images/logo.png" alt="logo"></a>
+
+                </div>
+                <!-- Navbar Toggle End -->
+                <!-- navbar-collapse start-->
+                <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
+                    <ul class="nav navbar-nav mts-menu-wrapper">
+                        <li class="active">
+                            <a href="#mts-slider">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#about">SOBRE NÓS</a>
+                        </li>
+                        <li>
+                            <a href="#search">PESQUISA</a>
+                        </li>
+                        <li>
+                            <a href="#contact">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- navbar-collapse end-->
+
+            </div>
+        </nav>
+        <!-- Navigation Menu end-->
+    </header>
+    <!-- Header End -->
+
+    @RenderBody()
+        
+    <section class="footer-con">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-md-4">
+                    <img src="~/images/logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro quos iste ratione doloribus asperiores, error omnis delectus rerum sapiente. Et, aliquam modi beatae quae in perferendis ab est fugiat!</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Sections</h3>
+                    <ul>
+                        <li class="active">
+                            <a href="#mts-slider">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">Sobre Nós</a>
+                        </li>
+                        <li>
+                            <a href="#search">Pesquisa</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 contac-us">
+                    <h3>Fale Conosco</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error omnis, facere ut maxime quos reprehenderit.</p>
+                    <img src="~/images/footer-map.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="mts-footer-content">
+
+                    <ul class="mts-footer-social-info">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="~/js/jquery-1.11.3.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/modernizr.min.js"></script>
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <script src="~/js/jquery.scrollUp.min.js"></script>
+    <script src="~/js/jquery.easypiechart.js"></script>
+    <script src="~/js/isotope.pkgd.min.js"></script>
+    <script src="~/js/jquery.fitvids.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/js/jquery.waypoints.min.js"></script>
+    <script src="~/js/wow.min.js"></script>
+    <script src="~/js/jquery.nav.js"></script>
+    <script src="~/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/js/smooth-scroll.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/jquery.sliderPro.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/custom.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

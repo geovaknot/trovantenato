@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.4" />
+    <PackageReference Include="MailKit" Version="3.1.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="MimeKit" Version="3.2.0" />
+    <PackageReference Include="PostSharp.Redist" Version="2023.0.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Contacts\Queries\" />
+    <Folder Include="Services\Login\Handlers\" />
+    <Folder Include="Services\Login\Command\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trovantenato.Domain\Trovantenato.Domain.csproj" />
+    <ProjectReference Include="..\Trovantenato.Infrastructure\Trovantenato.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
